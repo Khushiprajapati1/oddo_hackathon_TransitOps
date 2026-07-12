@@ -1,0 +1,52 @@
+.driver-page{
+    padding:40px;
+    background:#f8fafc;
+    min-height:100vh;
+}
+
+.driver-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.driver-header h1{
+    margin: 0;
+    font-size: 34px;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.driver-header p{
+    color:gray;
+    margin-top:6px;
+}
+
+.add-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.add-btn:hover{
+
+    background:#1d4ed8;
+
+}
