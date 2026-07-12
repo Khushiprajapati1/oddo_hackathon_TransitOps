@@ -1,12 +1,14 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const driverRoutes = require("./routes/driverRoutes");
 require("dotenv").config();
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use("/api/drivers", driverRoutes);
 
 mongoose
   .connect(process.env.MONGODB_URI)
